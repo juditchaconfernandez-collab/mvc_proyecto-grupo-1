@@ -23,12 +23,6 @@ El proyecto se organiza en tres cuadernos de trabajo que cubren el ciclo de vida
         * **Validación Cruzada Estratificada ($k=5$)** obteniendo un **AUC-ROC medio de 0.7593**.
         * Optimización de hiperparámetros mediante `GridSearchCV`.
         * Experimentación con técnicas de **Target Encoding**.
-        * **Fase 4 - Interpretabilidad:** Análisis de mecanismos internos del modelo.
-
-## Marco Teórico: Interpretabilidad y Explicabilidad
-Basado en la **Sesión 6.2** del programa, el proyecto aplica los conceptos de:
-* **Interpretabilidad:** Capacidad de captar el **"por qué"** de una predicción (grado de comprensión humana de las razones tras una decisión).
-* **Explicabilidad:** Habilidad para comprender tanto el **"cómo"** como el **"por qué"**.
-* **Métodos Agnósticos (SHAP):** Implementación de valores de Shapley (Teoría de Juegos) para cuantificar la contribución de cada variable (Jornada, Edad, Sueldo) al resultado del modelo, transformando nuestra "caja negra" en un sistema transparente.
+    4.  **`04_interpretabilidad.ipynb`**: Análisis de mecanismos internos del modelo.
 
 
